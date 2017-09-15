@@ -1,0 +1,9 @@
+{application,rumbl,
+             [{description,"rumbl"},
+              {modules,['Elixir.Rumbl','Elixir.Rumbl.Web']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Rumbl',[]}},
+              {applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
+                             phoenix_html,cowboy,logger,gettext,phoenix_ecto,
+                             postgrex,comeonin]}]}.
